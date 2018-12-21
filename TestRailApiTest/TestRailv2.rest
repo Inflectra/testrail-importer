@@ -1,0 +1,125 @@
+{
+  "CurrentRequestName": "Get_TestCase",
+  "CurrentPath": "C:\\Git\\SpiraTeamAddOns\\Importers\\TestRail\\TestRailApiTest\\TestRailv2.rest",
+  "Name": "TestRailv2.rest",
+  "Requests": [
+    {
+      "Name": "Get_Test",
+      "Url": "https://digitaslbi.testrail.net/index.php?/api/v2/get_test/{test_id}",
+      "Method": "GET",
+      "Body": "",
+      "Credential": {
+        "UserName": "adam.sandman@inflectra.com",
+        "Password": "SemperF1",
+        "SecurePassword": {
+          "Length": 8
+        },
+        "Domain": ""
+      },
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "test_id",
+          "TokenName": "{test_id}",
+          "Value": "173066"
+        }
+      ]
+    },
+    {
+      "Name": "Get_Results",
+      "Url": "https://digitaslbi.testrail.net/index.php?/api/v2/get_results/{test_id}",
+      "Method": "GET",
+      "Body": "",
+      "Credential": {
+        "UserName": "adam.sandman@inflectra.com",
+        "Password": "SemperF1",
+        "SecurePassword": {
+          "Length": 8
+        },
+        "Domain": ""
+      },
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "test_id",
+          "TokenName": "{test_id}",
+          "Value": "173066"
+        }
+      ]
+    },
+    {
+      "Name": "Get_Statuses",
+      "Url": "https://digitaslbi.testrail.net/index.php?/api/v2/get_statuses",
+      "Method": "GET",
+      "Body": "",
+      "Credential": {
+        "UserName": "adam.sandman@inflectra.com",
+        "Password": "SemperF1",
+        "SecurePassword": {
+          "Length": 8
+        },
+        "Domain": ""
+      },
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": []
+    },
+    {
+      "Name": "Get_TestCase",
+      "Url": "https://digitaslbi.testrail.net/index.php?/api/v2/get_case/{case_id}",
+      "Method": "GET",
+      "Body": "",
+      "Credential": {
+        "UserName": "adam.sandman@inflectra.com",
+        "Password": "SemperF1",
+        "SecurePassword": {
+          "Length": 8
+        },
+        "Domain": ""
+      },
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "case_id",
+          "TokenName": "{case_id}",
+          "Value": "1812"
+        }
+      ]
+    }
+  ]
+}
