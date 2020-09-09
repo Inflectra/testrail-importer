@@ -10,7 +10,7 @@
       "Body": "",
       "Credential": {
         "UserName": "adam.sandman@inflectra.com",
-        "Password": "SemperF1",
+        "Password": "[PUT REAL PASSWORD HERE]",
         "SecurePassword": {
           "Length": 8
         },
