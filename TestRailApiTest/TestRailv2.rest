@@ -9,7 +9,7 @@
       "Method": "GET",
       "Body": "",
       "Credential": {
-        "UserName": "adam.sandman@inflectra.com",
+        "UserName": "[INSERT USERNAME HERE]",
         "Password": "[PUT REAL PASSWORD HERE]",
         "SecurePassword": {
           "Length": 8
